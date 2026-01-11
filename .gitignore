@@ -7,3 +7,14 @@
 *.kicad_pro-bak
 *.kicad_ses
 .fp-info-cache
+
+# KiCad backups autosaves locks
+*~ 
+*.kicad_sch.lck
+*.kicad_pcb.lck
+*.kicad_prl
+*_autosave*
+#auto_saved_files#
+
+# KiCad backup folder if you have one
+ald_control_board-backups/

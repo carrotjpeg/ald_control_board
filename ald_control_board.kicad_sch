@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 17.78)
+		(size 90.17 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "390ad941-9adf-434d-bddb-a30fc87416a5")
+		(property "Sheetname" "power_input"
+			(at 16.51 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input.kicad_sch"
+			(at 16.51 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ald_control_board"
+				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 80.01)
+		(size 90.17 86.36)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5277656f-52de-45c3-b917-aff35c1e558f")
+		(property "Sheetname" "mfc_interface"
+			(at 16.51 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mfc_interface.kicad_sch"
+			(at 16.51 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ald_control_board"
+				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 78.74)
+		(size 161.29 80.01)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57abc172-8ca5-41b8-b118-78f4fd51a14c")
+		(property "Sheetname" "vacuum_gauge_interface"
+			(at 114.3 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vacuum_gauge_interface.kicad_sch"
+			(at 114.3 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ald_control_board"
+				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 17.78)
+		(size 100.33 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a79275c5-8d52-4258-805e-88046f0b4eaf")
+		(property "Sheetname" "daq_interface"
+			(at 181.61 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "daq_interface.kicad_sch"
+			(at 181.61 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ald_control_board"
+				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 17.78)
+		(size 64.77 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7c6a359-8623-4d62-a80b-5dc912748245")
+		(property "Sheetname" "relay_board"
+			(at 111.76 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay_board.kicad_sch"
+			(at 111.76 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ald_control_board"
+				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
