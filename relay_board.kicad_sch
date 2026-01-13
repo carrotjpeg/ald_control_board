@@ -3231,7 +3231,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a4f3cc09-7495-4930-b393-3021493375cc")
 		(property "Reference" "#FLG04"
 			(at 102.87 66.675 0)
@@ -3243,7 +3242,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 102.87 63.5 0)
+			(at 103.124 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
