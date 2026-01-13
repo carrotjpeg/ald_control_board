@@ -2208,7 +2208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 158.75 85.09 0)
 			(effects
 				(font
@@ -2558,7 +2558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 226.06 85.09 0)
 			(effects
 				(font
@@ -2627,14 +2627,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7518ff34-dc28-4a87-997a-6cf8aa1c9d5d")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 63.5 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_FORELINE_VALVE"
@@ -2646,7 +2645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -2682,7 +2681,7 @@
 		(instances
 			(project "ald_control_board"
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/f7c6a359-8623-4d62-a80b-5dc912748245"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2768,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_SPARE"
@@ -2781,7 +2779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 260.35 73.66 0)
 			(effects
 				(font
@@ -2851,7 +2849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -2928,7 +2926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 91.44 85.09 0)
 			(effects
 				(font
@@ -2997,14 +2995,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8276099d-456a-469c-b3ad-5aa401a591fa")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 128.27 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_PRECURSOR_A"
@@ -3016,7 +3013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -3052,7 +3049,7 @@
 		(instances
 			(project ""
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/f7c6a359-8623-4d62-a80b-5dc912748245"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3086,7 +3083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -3174,7 +3171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -3231,7 +3228,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a4f3cc09-7495-4930-b393-3021493375cc")
 		(property "Reference" "#FLG04"
 			(at 102.87 66.675 0)
@@ -3243,7 +3239,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 102.87 63.5 0)
+			(at 103.124 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3366,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_N2_PURGE"
@@ -3382,7 +3377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 193.04 73.66 0)
 			(effects
 				(font
@@ -3452,7 +3447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
 			(at 54.61 87.63 0)
 			(effects
 				(font
@@ -3594,7 +3589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
 			(at 254 86.36 0)
 			(effects
 				(font

@@ -1421,7 +1421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d929776-e366-4c13-bc84-aa7e34104562")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 128.524 95.504 0)
 			(effects
 				(font
@@ -1439,7 +1439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 126.6952 100.33 0)
 			(effects
 				(font
@@ -1475,7 +1475,7 @@
 		(instances
 			(project "ald_control_board"
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/57abc172-8ca5-41b8-b118-78f4fd51a14c"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -1509,7 +1509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 171.45 97.79 0)
 			(effects
 				(font
@@ -1557,7 +1557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20f3246c-ff03-48c5-b9cf-2272609c46f8")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 146.304 90.678 90)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 147.32 94.488 90)
 			(effects
 				(font
@@ -1609,7 +1609,7 @@
 		(instances
 			(project "ald_control_board"
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/57abc172-8ca5-41b8-b118-78f4fd51a14c"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1624,7 +1624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e775a70-5ba0-4369-9168-6d87df38b62a")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 100.076 91.694 0)
 			(effects
 				(font
@@ -1640,7 +1640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 105.1052 96.52 0)
 			(effects
 				(font
@@ -1676,7 +1676,7 @@
 		(instances
 			(project "ald_control_board"
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/57abc172-8ca5-41b8-b118-78f4fd51a14c"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 186.69 95.25 0)
 			(effects
 				(font
@@ -1843,7 +1843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 186.69 100.33 0)
 			(effects
 				(font
@@ -1910,7 +1910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
 			(at 171.45 92.71 0)
 			(effects
 				(font
@@ -1958,7 +1958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a378d380-91c5-4596-a581-14fae58161ae")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 117.348 91.694 0)
 			(effects
 				(font
@@ -1976,7 +1976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 115.2652 96.52 0)
 			(effects
 				(font
@@ -2012,7 +2012,7 @@
 		(instances
 			(project "ald_control_board"
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/57abc172-8ca5-41b8-b118-78f4fd51a14c"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf468d2f-c8a9-4d76-9263-d0e040ce44be")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 171.45 95.2499 0)
 			(effects
 				(font
@@ -2046,7 +2046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 168.91 95.25 0)
 			(effects
 				(font
@@ -2100,7 +2100,7 @@
 		(instances
 			(project ""
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/57abc172-8ca5-41b8-b118-78f4fd51a14c"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)

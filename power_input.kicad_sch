@@ -2221,7 +2221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 53.0352 55.88 0)
 			(effects
 				(font
@@ -2288,7 +2288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 207.9752 53.34 0)
 			(effects
 				(font
@@ -2485,7 +2485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 113.03 48.768 90)
 			(effects
 				(font
@@ -2554,7 +2554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 107.6452 55.88 0)
 			(effects
 				(font
@@ -2817,7 +2817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.0952 55.88 0)
 			(effects
 				(font
@@ -2868,7 +2868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46d9d04b-c338-44f9-bc92-2997c7db4fd7")
-		(property "Reference" "R_GND_TIE"
+		(property "Reference" "R_GND_TIE1"
 			(at 138.684 70.358 90)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 133.35 76.708 90)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 		(instances
 			(project ""
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/390ad941-9adf-434d-bddb-a30fc87416a5"
-					(reference "R_GND_TIE")
+					(reference "R_GND_TIE1")
 					(unit 1)
 				)
 			)
@@ -3085,7 +3085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 241.3 45.72 0)
 			(effects
 				(font
@@ -3157,7 +3157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 69.85 46.99 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 162.2552 55.88 0)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 216.8652 53.34 0)
 			(effects
 				(font
@@ -3624,7 +3624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 179.07 46.99 0)
 			(effects
 				(font
@@ -3756,7 +3756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 97.4852 55.88 0)
 			(effects
 				(font
@@ -3890,7 +3890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 124.46 46.99 0)
 			(effects
 				(font
@@ -3957,7 +3957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 58.42 48.768 90)
 			(effects
 				(font
@@ -4156,7 +4156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 233.68 70.1548 0)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 42.8752 55.88 0)
 			(effects
 				(font
@@ -4420,7 +4420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 226.06 63.1952 0)
 			(effects
 				(font
