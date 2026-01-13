@@ -2627,14 +2627,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7518ff34-dc28-4a87-997a-6cf8aa1c9d5d")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 63.5 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_FORELINE_VALVE"
@@ -2682,7 +2681,7 @@
 		(instances
 			(project "ald_control_board"
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/f7c6a359-8623-4d62-a80b-5dc912748245"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2768,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_SPARE"
@@ -2997,14 +2995,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8276099d-456a-469c-b3ad-5aa401a591fa")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 128.27 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_PRECURSOR_A"
@@ -3052,7 +3049,7 @@
 		(instances
 			(project ""
 				(path "/0db39e9c-e7a7-46b4-b6c2-b1f3e7389c4f/f7c6a359-8623-4d62-a80b-5dc912748245"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3366,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "J_N2_PURGE"
