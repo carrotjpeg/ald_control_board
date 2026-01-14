@@ -1,0 +1,1038 @@
+** Drc report for ald_control_board.kicad_pcb **
+** Created on 2026-01-13T17:12:44-0800 **
+
+** Found 191 DRC violations **
+[shorting_items]: Items shorting two nets (nets +12V and GND_PWR)
+    Local override; error
+    @(53.5000 mm, 52.3275 mm): PTH pad 1 [+12V] of C4
+    @(51.9725 mm, 50.8000 mm): Track [GND_PWR] on F.Cu, length 2.1602 mm
+[shorting_items]: Items shorting two nets (nets +24V and GND_PWR)
+    Local override; error
+    @(53.5000 mm, 27.0000 mm): PTH pad 1 [+24V] of C1
+    @(52.0000 mm, 25.5000 mm): Track [GND_PWR] on F.Cu, length 2.1213 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1364 mm)
+    Rule: netclass 'Default'; error
+    @(56.2275 mm, 106.6800 mm): Track [-15V] on F.Cu, length 5.1583 mm
+    @(54.5800 mm, 110.3275 mm): PTH pad 1 [GND_SIG] of C10
+[shorting_items]: Items shorting two nets (nets +24V and GND_PWR)
+    Local override; error
+    @(53.5000 mm, 27.0000 mm): PTH pad 1 [+24V] of C1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /power_input/+12V_IN and GND_PWR)
+    Local override; error
+    @(64.8250 mm, 48.0000 mm): PTH pad 2 [/power_input/+12V_IN] of F2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /power_input/+24V_IN and GND_PWR)
+    Local override; error
+    @(61.5750 mm, 30.5000 mm): PTH pad 2 [/power_input/+24V_IN] of F1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(192.0400 mm, 118.8400 mm): PTH pad 0 [<no net>] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(225.3400 mm, 118.8400 mm): PTH pad 0 [<no net>] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J10-Pad1) and GND_SIG)
+    Local override; error
+    @(218.3850 mm, 116.0000 mm): PTH pad 1 [unconnected-(J10-Pad1)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(C15-Pad1) and GND_SIG)
+    Local override; error
+    @(215.6150 mm, 116.0000 mm): PTH pad 2 [Net-(C15-Pad1)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J10-Pad3) and GND_SIG)
+    Local override; error
+    @(212.8450 mm, 116.0000 mm): PTH pad 3 [unconnected-(J10-Pad3)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J10-Pad4) and GND_SIG)
+    Local override; error
+    @(210.0750 mm, 116.0000 mm): PTH pad 4 [unconnected-(J10-Pad4)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_PWR and GND_SIG)
+    Local override; error
+    @(207.3050 mm, 116.0000 mm): PTH pad 5 [GND_PWR] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets -15V and GND_SIG)
+    Local override; error
+    @(204.5350 mm, 116.0000 mm): PTH pad 6 [-15V] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets +15V and GND_SIG)
+    Local override; error
+    @(201.7650 mm, 116.0000 mm): PTH pad 7 [+15V] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(C14-Pad1) and GND_SIG)
+    Local override; error
+    @(198.9950 mm, 116.0000 mm): PTH pad 8 [Net-(C14-Pad1)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J10-P9-Pad9) and GND_SIG)
+    Local override; error
+    @(217.0000 mm, 118.8400 mm): PTH pad 9 [unconnected-(J10-P9-Pad9)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J10-P10-Pad10) and GND_SIG)
+    Local override; error
+    @(214.2300 mm, 118.8400 mm): PTH pad 10 [unconnected-(J10-P10-Pad10)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J10-P13-Pad13) and GND_SIG)
+    Local override; error
+    @(205.9200 mm, 118.8400 mm): PTH pad 13 [unconnected-(J10-P13-Pad13)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J10-P14-Pad14) and GND_SIG)
+    Local override; error
+    @(203.1500 mm, 118.8400 mm): PTH pad 14 [unconnected-(J10-P14-Pad14)] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets CHASSIS_GND and GND_SIG)
+    Local override; error
+    @(200.3800 mm, 118.8400 mm): PTH pad 15 [CHASSIS_GND] of J10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(111.7750 mm, 56.4000 mm): PTH pad 1 [<no net>] of K1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.7250 mm, 62.4500 mm): PTH pad 2 [<no net>] of K1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(125.9250 mm, 62.4500 mm): PTH pad 3 [<no net>] of K1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.7250 mm, 50.4500 mm): PTH pad 5 [<no net>] of K1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(111.4250 mm, 35.4500 mm): PTH pad 1 [<no net>] of K2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.3750 mm, 41.5000 mm): PTH pad 2 [<no net>] of K2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(125.5750 mm, 41.5000 mm): PTH pad 3 [<no net>] of K2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.3750 mm, 29.5000 mm): PTH pad 5 [<no net>] of K2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(111.4250 mm, 76.4500 mm): PTH pad 1 [<no net>] of K3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.3750 mm, 82.5000 mm): PTH pad 2 [<no net>] of K3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(125.5750 mm, 82.5000 mm): PTH pad 3 [<no net>] of K3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.3750 mm, 70.5000 mm): PTH pad 5 [<no net>] of K3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.8750 mm, 90.5000 mm): PTH pad 5 [<no net>] of K4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(126.0750 mm, 102.5000 mm): PTH pad 3 [<no net>] of K4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(113.8750 mm, 102.5000 mm): PTH pad 2 [<no net>] of K4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[clearance]: Clearance violation (netclass 'Power_High' clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: netclass 'Power_High'; error
+    @(111.9250 mm, 96.4500 mm): PTH pad 1 [<no net>] of K4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets +12V and GND_PWR)
+    Local override; error
+    @(53.5000 mm, 52.3275 mm): PTH pad 1 [+12V] of C4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(J8-Pin_1) and GND_PWR)
+    Local override; error
+    @(136.8800 mm, 96.6225 mm): PTH pad 1 [Net-(J8-Pin_1)] of J8
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets +24V and GND_PWR)
+    Local override; error
+    @(106.3800 mm, 61.2025 mm): PTH pad 1 [+24V] of D1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /relay_board/P0.1 and GND_PWR)
+    Local override; error
+    @(106.3800 mm, 51.0425 mm): PTH pad 2 [/relay_board/P0.1] of D1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /vacuum_gauge_interface/+24V and GND_SIG)
+    Local override; error
+    @(210.0750 mm, 33.0000 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of TP15
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(C15-Pad1) and GND_SIG)
+    Local override; error
+    @(230.5750 mm, 105.5000 mm): PTH pad 1 [Net-(C15-Pad1)] of TP9
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets +24V and GND_PWR)
+    Local override; error
+    @(106.3800 mm, 81.2025 mm): PTH pad 1 [+24V] of D3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /relay_board/P0.2 and GND_PWR)
+    Local override; error
+    @(106.3800 mm, 71.0425 mm): PTH pad 2 [/relay_board/P0.2] of D3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets +24V and GND_PWR)
+    Local override; error
+    @(106.3800 mm, 101.7025 mm): PTH pad 1 [+24V] of D4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /relay_board/P0.3 and GND_PWR)
+    Local override; error
+    @(106.3800 mm, 91.5425 mm): PTH pad 2 [/relay_board/P0.3] of D4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /vacuum_gauge_interface/+24V and GND_SIG)
+    Local override; error
+    @(227.0750 mm, 34.5000 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of C21
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_PWR and GND_SIG)
+    Local override; error
+    @(229.5750 mm, 34.5000 mm): PTH pad 2 [GND_PWR] of C21
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/DO_FORELINE and GND_SIG)
+    Local override; error
+    @(133.5750 mm, 135.9200 mm): PTH pad 1 [/daq_interface/DO_FORELINE] of J9
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/DO_PRECURSOR and GND_SIG)
+    Local override; error
+    @(133.5750 mm, 138.4600 mm): PTH pad 2 [/daq_interface/DO_PRECURSOR] of J9
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/DO_N2 and GND_SIG)
+    Local override; error
+    @(133.5750 mm, 141.0000 mm): PTH pad 3 [/daq_interface/DO_N2] of J9
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/AO_MFC_SETPOINT and GND_SIG)
+    Local override; error
+    @(133.5750 mm, 146.0800 mm): PTH pad 5 [/daq_interface/AO_MFC_SETPOINT] of J9
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/AI_PRESSURE and GND_SIG)
+    Local override; error
+    @(133.5750 mm, 148.6200 mm): PTH pad 6 [/daq_interface/AI_PRESSURE] of J9
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/AI_MFC_FLOW and GND_SIG)
+    Local override; error
+    @(133.5750 mm, 151.1600 mm): PTH pad 7 [/daq_interface/AI_MFC_FLOW] of J9
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /power_input/+12V_IN and GND_PWR)
+    Local override; error
+    @(49.6200 mm, 62.8275 mm): PTH pad 1 [/power_input/+12V_IN] of J2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/AI_MFC_FLOW and GND_SIG)
+    Local override; error
+    @(139.0750 mm, 152.4600 mm): PTH pad 1 [/daq_interface/AI_MFC_FLOW] of TP8
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets -15V and GND_SIG)
+    Local override; error
+    @(203.0750 mm, 110.0000 mm): PTH pad 1 [-15V] of TP11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_PWR and GND_SIG)
+    Local override; error
+    @(200.5750 mm, 93.0000 mm): PTH pad 1 [GND_PWR] of C19
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(C18-Pad1) and GND_SIG)
+    Local override; error
+    @(198.5750 mm, 93.0000 mm): PTH pad 2 [Net-(C18-Pad1)] of C19
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(J7-Pin_1) and GND_PWR)
+    Local override; error
+    @(136.3800 mm, 75.6225 mm): PTH pad 1 [Net-(J7-Pin_1)] of J7
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets +5V and GND_PWR)
+    Local override; error
+    @(50.5750 mm, 78.0000 mm): PTH pad 1 [+5V] of J3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_SIG and GND_PWR)
+    Local override; error
+    @(45.4950 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of J3
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /power_input/+24V_IN and GND_PWR)
+    Local override; error
+    @(49.0750 mm, 38.5000 mm): PTH pad 1 [/power_input/+24V_IN] of J1
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(C14-Pad1) and GND_SIG)
+    Local override; error
+    @(184.0750 mm, 116.5000 mm): PTH pad 1 [Net-(C14-Pad1)] of TP10
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets +5V and GND_PWR)
+    Local override; error
+    @(59.1199 mm, 78.0000 mm): PTH pad 1 [+5V] of C6
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_SIG and GND_PWR)
+    Local override; error
+    @(61.1199 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of C6
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_PWR and GND_SIG)
+    Local override; error
+    @(210.0750 mm, 101.0000 mm): PTH pad 1 [GND_PWR] of C16
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(C16-Pad2) and GND_SIG)
+    Local override; error
+    @(208.0750 mm, 101.0000 mm): PTH pad 2 [Net-(C16-Pad2)] of C16
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /vacuum_gauge_interface/+24V and GND_SIG)
+    Local override; error
+    @(202.5750 mm, 38.8400 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of J11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_PWR and GND_SIG)
+    Local override; error
+    @(202.5750 mm, 41.3800 mm): PTH pad 2 [GND_PWR] of J11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /vacuum_gauge_interface/AI_PRESSURE and GND_SIG)
+    Local override; error
+    @(202.5750 mm, 43.9200 mm): PTH pad 3 [/vacuum_gauge_interface/AI_PRESSURE] of J11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J11-Pin_5-Pad5) and GND_SIG)
+    Local override; error
+    @(202.5750 mm, 49.0000 mm): PTH pad 5 [unconnected-(J11-Pin_5-Pad5)] of J11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J11-Pin_6-Pad6) and GND_SIG)
+    Local override; error
+    @(202.5750 mm, 51.5400 mm): PTH pad 6 [unconnected-(J11-Pin_6-Pad6)] of J11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J11-Pin_7-Pad7) and GND_SIG)
+    Local override; error
+    @(202.5750 mm, 54.0800 mm): PTH pad 7 [unconnected-(J11-Pin_7-Pad7)] of J11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets unconnected-(J11-Pin_8-Pad8) and GND_SIG)
+    Local override; error
+    @(202.5750 mm, 56.6200 mm): PTH pad 8 [unconnected-(J11-Pin_8-Pad8)] of J11
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets +12V and GND_PWR)
+    Local override; error
+    @(104.8800 mm, 30.0425 mm): PTH pad 1 [+12V] of D2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /relay_board/P0.0 and GND_PWR)
+    Local override; error
+    @(104.8800 mm, 40.2025 mm): PTH pad 2 [/relay_board/P0.0] of D2
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_SIG and GND_PWR)
+    Local override; error
+    @(54.5800 mm, 110.3275 mm): PTH pad 1 [GND_SIG] of C10
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets -15V and GND_PWR)
+    Local override; error
+    @(52.5800 mm, 110.3275 mm): PTH pad 2 [-15V] of C10
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/DO_PRECURSOR and GND_SIG)
+    Local override; error
+    @(127.5750 mm, 135.9600 mm): PTH pad 1 [/daq_interface/DO_PRECURSOR] of TP3
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(J5-Pin_1) and GND_PWR)
+    Local override; error
+    @(135.8800 mm, 34.6225 mm): PTH pad 1 [Net-(J5-Pin_1)] of J5
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets GNDPWR and GND_PWR)
+    Local override; error
+    @(140.9600 mm, 34.6225 mm): PTH pad 2 [GNDPWR] of J5
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/AI_PRESSURE and GND_SIG)
+    Local override; error
+    @(128.0750 mm, 151.4600 mm): PTH pad 1 [/daq_interface/AI_PRESSURE] of TP7
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_PWR and GND_SIG)
+    Local override; error
+    @(210.5750 mm, 40.5000 mm): PTH pad 1 [GND_PWR] of TP16
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/DO_FORELINE and GND_SIG)
+    Local override; error
+    @(138.5750 mm, 133.9600 mm): PTH pad 1 [/daq_interface/DO_FORELINE] of TP1
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /vacuum_gauge_interface/AI_PRESSURE and GND_SIG)
+    Local override; error
+    @(211.0750 mm, 47.5000 mm): PTH pad 1 [/vacuum_gauge_interface/AI_PRESSURE] of TP17
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets Net-(J6-Pin_1) and GND_PWR)
+    Local override; error
+    @(136.3800 mm, 55.6225 mm): PTH pad 1 [Net-(J6-Pin_1)] of J6
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets +15V and GND_PWR)
+    Local override; error
+    @(44.4950 mm, 93.5000 mm): PTH pad 1 [+15V] of J4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_SIG and GND_PWR)
+    Local override; error
+    @(49.5750 mm, 93.5000 mm): PTH pad 2 [GND_SIG] of J4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets -15V and GND_PWR)
+    Local override; error
+    @(54.6550 mm, 93.5000 mm): PTH pad 3 [-15V] of J4
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/DO_N2 and GND_SIG)
+    Local override; error
+    @(144.0750 mm, 140.4600 mm): PTH pad 1 [/daq_interface/DO_N2] of TP4
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets /daq_interface/AO_MFC_SETPOINT and GND_SIG)
+    Local override; error
+    @(145.0750 mm, 147.4600 mm): PTH pad 1 [/daq_interface/AO_MFC_SETPOINT] of TP6
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets +15V and GND_SIG)
+    Local override; error
+    @(191.5750 mm, 97.5000 mm): PTH pad 1 [+15V] of TP12
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+[shorting_items]: Items shorting two nets (nets +15V and GND_PWR)
+    Local override; error
+    @(45.1550 mm, 111.3275 mm): PTH pad 1 [+15V] of C8
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[shorting_items]: Items shorting two nets (nets GND_SIG and GND_PWR)
+    Local override; error
+    @(47.1550 mm, 111.3275 mm): PTH pad 2 [GND_SIG] of C8
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(52.0000 mm, 25.5000 mm): Track [GND_PWR] on F.Cu, length 2.1213 mm
+    @(53.5000 mm, 27.0000 mm): PTH pad 1 [+24V] of C1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(51.9725 mm, 50.8000 mm): Track [GND_PWR] on F.Cu, length 2.1602 mm
+    @(53.5000 mm, 52.3275 mm): PTH pad 1 [+12V] of C4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(53.5000 mm, 27.0000 mm): PTH pad 1 [+24V] of C1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(61.5750 mm, 30.5000 mm): PTH pad 2 [/power_input/+24V_IN] of F1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(64.8250 mm, 48.0000 mm): PTH pad 2 [/power_input/+12V_IN] of F2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(49.0750 mm, 38.5000 mm): PTH pad 1 [/power_input/+24V_IN] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(53.5000 mm, 52.3275 mm): PTH pad 1 [+12V] of C4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.3750 mm, 41.5000 mm): PTH pad 2 [<no net>] of K2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(106.3800 mm, 51.0425 mm): PTH pad 2 [/relay_board/P0.1] of D1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(104.8800 mm, 40.2025 mm): PTH pad 2 [/relay_board/P0.0] of D2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(111.7750 mm, 56.4000 mm): PTH pad 1 [<no net>] of K1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.7250 mm, 62.4500 mm): PTH pad 2 [<no net>] of K1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(106.3800 mm, 61.2025 mm): PTH pad 1 [+24V] of D1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(111.4250 mm, 35.4500 mm): PTH pad 1 [<no net>] of K2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.3750 mm, 29.5000 mm): PTH pad 5 [<no net>] of K2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(104.8800 mm, 30.0425 mm): PTH pad 1 [+12V] of D2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.3750 mm, 82.5000 mm): PTH pad 2 [<no net>] of K3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(125.5750 mm, 82.5000 mm): PTH pad 3 [<no net>] of K3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.8750 mm, 90.5000 mm): PTH pad 5 [<no net>] of K4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.8750 mm, 102.5000 mm): PTH pad 2 [<no net>] of K4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(111.9250 mm, 96.4500 mm): PTH pad 1 [<no net>] of K4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(106.3800 mm, 81.2025 mm): PTH pad 1 [+24V] of D3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(106.3800 mm, 91.5425 mm): PTH pad 2 [/relay_board/P0.3] of D4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(106.3800 mm, 71.0425 mm): PTH pad 2 [/relay_board/P0.2] of D3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(106.3800 mm, 101.7025 mm): PTH pad 1 [+24V] of D4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(49.6200 mm, 62.8275 mm): PTH pad 1 [/power_input/+12V_IN] of J2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(50.5750 mm, 78.0000 mm): PTH pad 1 [+5V] of J3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(45.4950 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of J3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(59.1199 mm, 78.0000 mm): PTH pad 1 [+5V] of C6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(61.1199 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of C6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.7250 mm, 50.4500 mm): PTH pad 5 [<no net>] of K1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(125.5750 mm, 41.5000 mm): PTH pad 3 [<no net>] of K2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(135.8800 mm, 34.6225 mm): PTH pad 1 [Net-(J5-Pin_1)] of J5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(140.9600 mm, 34.6225 mm): PTH pad 2 [GNDPWR] of J5
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(136.3800 mm, 55.6225 mm): PTH pad 1 [Net-(J6-Pin_1)] of J6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(44.4950 mm, 93.5000 mm): PTH pad 1 [+15V] of J4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(54.5800 mm, 110.3275 mm): PTH pad 1 [GND_SIG] of C10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(49.5750 mm, 93.5000 mm): PTH pad 2 [GND_SIG] of J4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(54.6550 mm, 93.5000 mm): PTH pad 3 [-15V] of J4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(52.5800 mm, 110.3275 mm): PTH pad 2 [-15V] of C10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(45.1550 mm, 111.3275 mm): PTH pad 1 [+15V] of C8
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(47.1550 mm, 111.3275 mm): PTH pad 2 [GND_SIG] of C8
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(111.4250 mm, 76.4500 mm): PTH pad 1 [<no net>] of K3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(113.3750 mm, 70.5000 mm): PTH pad 5 [<no net>] of K3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(125.9250 mm, 62.4500 mm): PTH pad 3 [<no net>] of K1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(136.3800 mm, 75.6225 mm): PTH pad 1 [Net-(J7-Pin_1)] of J7
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(136.8800 mm, 96.6225 mm): PTH pad 1 [Net-(J8-Pin_1)] of J8
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(37.0840 mm, 16.6624 mm): Polygon [GND_PWR] on B.Cu
+    @(126.0750 mm, 102.5000 mm): PTH pad 3 [<no net>] of K4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(225.3400 mm, 118.8400 mm): PTH pad 0 [<no net>] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(218.3850 mm, 116.0000 mm): PTH pad 1 [unconnected-(J10-Pad1)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(217.0000 mm, 118.8400 mm): PTH pad 9 [unconnected-(J10-P9-Pad9)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(230.5750 mm, 105.5000 mm): PTH pad 1 [Net-(C15-Pad1)] of TP9
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(215.6150 mm, 116.0000 mm): PTH pad 2 [Net-(C15-Pad1)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(214.2300 mm, 118.8400 mm): PTH pad 10 [unconnected-(J10-P10-Pad10)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(210.0750 mm, 116.0000 mm): PTH pad 4 [unconnected-(J10-Pad4)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(207.3050 mm, 116.0000 mm): PTH pad 5 [GND_PWR] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(204.5350 mm, 116.0000 mm): PTH pad 6 [-15V] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(203.0750 mm, 110.0000 mm): PTH pad 1 [-15V] of TP11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(201.7650 mm, 116.0000 mm): PTH pad 7 [+15V] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(198.9950 mm, 116.0000 mm): PTH pad 8 [Net-(C14-Pad1)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(200.3800 mm, 118.8400 mm): PTH pad 15 [CHASSIS_GND] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(212.8450 mm, 116.0000 mm): PTH pad 3 [unconnected-(J10-Pad3)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(205.9200 mm, 118.8400 mm): PTH pad 13 [unconnected-(J10-P13-Pad13)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(203.1500 mm, 118.8400 mm): PTH pad 14 [unconnected-(J10-P14-Pad14)] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(192.0400 mm, 118.8400 mm): PTH pad 0 [<no net>] of J10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(184.0750 mm, 116.5000 mm): PTH pad 1 [Net-(C14-Pad1)] of TP10
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(191.5750 mm, 97.5000 mm): PTH pad 1 [+15V] of TP12
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(200.5750 mm, 93.0000 mm): PTH pad 1 [GND_PWR] of C19
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(198.5750 mm, 93.0000 mm): PTH pad 2 [Net-(C18-Pad1)] of C19
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(133.5750 mm, 138.4600 mm): PTH pad 2 [/daq_interface/DO_PRECURSOR] of J9
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(133.5750 mm, 141.0000 mm): PTH pad 3 [/daq_interface/DO_N2] of J9
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(127.5750 mm, 135.9600 mm): PTH pad 1 [/daq_interface/DO_PRECURSOR] of TP3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(133.5750 mm, 146.0800 mm): PTH pad 5 [/daq_interface/AO_MFC_SETPOINT] of J9
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(133.5750 mm, 148.6200 mm): PTH pad 6 [/daq_interface/AI_PRESSURE] of J9
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(133.5750 mm, 151.1600 mm): PTH pad 7 [/daq_interface/AI_MFC_FLOW] of J9
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(128.0750 mm, 151.4600 mm): PTH pad 1 [/daq_interface/AI_PRESSURE] of TP7
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(133.5750 mm, 135.9200 mm): PTH pad 1 [/daq_interface/DO_FORELINE] of J9
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(138.5750 mm, 133.9600 mm): PTH pad 1 [/daq_interface/DO_FORELINE] of TP1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(144.0750 mm, 140.4600 mm): PTH pad 1 [/daq_interface/DO_N2] of TP4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(139.0750 mm, 152.4600 mm): PTH pad 1 [/daq_interface/AI_MFC_FLOW] of TP8
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(145.0750 mm, 147.4600 mm): PTH pad 1 [/daq_interface/AO_MFC_SETPOINT] of TP6
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(210.0750 mm, 33.0000 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of TP15
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(227.0750 mm, 34.5000 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of C21
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(210.5750 mm, 40.5000 mm): PTH pad 1 [GND_PWR] of TP16
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(229.5750 mm, 34.5000 mm): PTH pad 2 [GND_PWR] of C21
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(210.0750 mm, 101.0000 mm): PTH pad 1 [GND_PWR] of C16
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(208.0750 mm, 101.0000 mm): PTH pad 2 [Net-(C16-Pad2)] of C16
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(202.5750 mm, 38.8400 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of J11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(202.5750 mm, 41.3800 mm): PTH pad 2 [GND_PWR] of J11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(202.5750 mm, 43.9200 mm): PTH pad 3 [/vacuum_gauge_interface/AI_PRESSURE] of J11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(202.5750 mm, 49.0000 mm): PTH pad 5 [unconnected-(J11-Pin_5-Pad5)] of J11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(202.5750 mm, 51.5400 mm): PTH pad 6 [unconnected-(J11-Pin_6-Pad6)] of J11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(202.5750 mm, 54.0800 mm): PTH pad 7 [unconnected-(J11-Pin_7-Pad7)] of J11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(202.5750 mm, 56.6200 mm): PTH pad 8 [unconnected-(J11-Pin_8-Pad8)] of J11
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.8616 mm, 126.7460 mm): Polygon [GND_SIG] on B.Cu
+    @(211.0750 mm, 47.5000 mm): PTH pad 1 [/vacuum_gauge_interface/AI_PRESSURE] of TP17
+
+** Found 66 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.0000 mm, 27.0000 mm): PTH pad 2 [GND_PWR] of C1
+    @(45.7200 mm, 25.5000 mm): Track [GND_PWR] on F.Cu, length 6.2800 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.0000 mm, 52.3275 mm): PTH pad 2 [GND_PWR] of C4
+    @(51.9725 mm, 50.8000 mm): Track [GND_PWR] on F.Cu, length 2.1602 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.9720 mm, 122.0000 mm): Pad 1 [GND_PWR] of R_GND_TIE1 on F.Cu
+    @(141.9600 mm, 96.6225 mm): PTH pad 2 [GND_PWR] of J8
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.9720 mm, 122.0000 mm): Pad 1 [GND_PWR] of R_GND_TIE1 on F.Cu
+    @(207.3050 mm, 116.0000 mm): PTH pad 5 [GND_PWR] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(202.5750 mm, 41.3800 mm): PTH pad 2 [GND_PWR] of J11
+    @(200.5750 mm, 93.0000 mm): PTH pad 1 [GND_PWR] of C19
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.0750 mm, 101.0000 mm): PTH pad 1 [GND_PWR] of C16
+    @(200.5750 mm, 93.0000 mm): PTH pad 1 [GND_PWR] of C19
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.0750 mm, 101.0000 mm): PTH pad 1 [GND_PWR] of C16
+    @(207.3050 mm, 116.0000 mm): PTH pad 5 [GND_PWR] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.5750 mm, 40.5000 mm): PTH pad 1 [GND_PWR] of TP16
+    @(202.5750 mm, 41.3800 mm): PTH pad 2 [GND_PWR] of J11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(221.6500 mm, 36.5000 mm): Pad 2 [GND_PWR] of C20 on F.Cu
+    @(229.5750 mm, 34.5000 mm): PTH pad 2 [GND_PWR] of C21
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(221.6500 mm, 36.5000 mm): Pad 2 [GND_PWR] of C20 on F.Cu
+    @(210.5750 mm, 40.5000 mm): PTH pad 1 [GND_PWR] of TP16
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.4950 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of J3
+    @(49.5750 mm, 93.5000 mm): PTH pad 2 [GND_SIG] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.1550 mm, 102.8275 mm): Pad 2 [GND_SIG] of C7 on F.Cu
+    @(54.6550 mm, 103.3275 mm): Pad 2 [GND_SIG] of C9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47.1550 mm, 102.8275 mm): Pad 2 [GND_SIG] of C7 on F.Cu
+    @(49.5750 mm, 93.5000 mm): PTH pad 2 [GND_SIG] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.5800 mm, 110.3275 mm): PTH pad 1 [GND_SIG] of C10
+    @(54.6550 mm, 103.3275 mm): Pad 2 [GND_SIG] of C9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.5800 mm, 110.3275 mm): PTH pad 1 [GND_SIG] of C10
+    @(47.1550 mm, 111.3275 mm): PTH pad 2 [GND_SIG] of C8
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(54.5800 mm, 110.3275 mm): PTH pad 1 [GND_SIG] of C10
+    @(119.1125 mm, 152.0000 mm): Pad 2 [GND_SIG] of C12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.1199 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of C6
+    @(67.5750 mm, 78.0000 mm): Pad 2 [GND_SIG] of C5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(61.1199 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of C6
+    @(45.4950 mm, 78.0000 mm): PTH pad 2 [GND_SIG] of J3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.5750 mm, 143.4600 mm): PTH pad 1 [GND_SIG] of TP5
+    @(119.1125 mm, 152.0000 mm): Pad 2 [GND_SIG] of C12 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.5750 mm, 153.7000 mm): PTH pad 8 [GND_SIG] of J9
+    @(150.0750 mm, 152.9600 mm): Pad 2 [GND_SIG] of C13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.0750 mm, 152.9600 mm): Pad 2 [GND_SIG] of C13 on F.Cu
+    @(156.0750 mm, 148.0000 mm): Pad 2 [GND_SIG] of C11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.9720 mm, 122.0000 mm): Pad 2 [GND_SIG] of R_GND_TIE1 on F.Cu
+    @(156.0750 mm, 148.0000 mm): Pad 2 [GND_SIG] of C11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(208.6900 mm, 118.8400 mm): PTH pad 12 [GND_SIG] of J10
+    @(186.0750 mm, 123.0000 mm): Pad 2 [GND_SIG] of C14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(224.5000 mm, 105.5000 mm): Pad 2 [GND_SIG] of C15 on F.Cu
+    @(211.4600 mm, 118.8400 mm): PTH pad 11 [GND_SIG] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(229.1500 mm, 43.5000 mm): Pad 2 [GND_SIG] of C22 on F.Cu
+    @(211.5750 mm, 54.5000 mm): PTH pad 1 [GND_SIG] of TP18
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.0750 mm, 147.9600 mm): Pad 1 [/daq_interface/AO_MFC_SP_FILT] of R5 on F.Cu
+    @(154.0000 mm, 148.0000 mm): Pad 1 [/daq_interface/AO_MFC_SP_FILT] of C11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.0375 mm, 152.0000 mm): Pad 1 [/daq_interface/AI_PRESSURE_FILT] of C12 on F.Cu
+    @(122.5750 mm, 151.9600 mm): Pad 1 [/daq_interface/AI_PRESSURE_FILT] of R6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.5750 mm, 152.9600 mm): Pad 1 [/daq_interface/AI_MFC_FLOW_FILT] of R7 on F.Cu
+    @(148.0000 mm, 152.9600 mm): Pad 1 [/daq_interface/AI_MFC_FLOW_FILT] of C13 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.0000 mm, 123.0000 mm): Pad 1 [Net-(C14-Pad1)] of C14 on F.Cu
+    @(185.5375 mm, 128.0000 mm): Pad 2 [Net-(C14-Pad1)] of R8 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(184.0750 mm, 116.5000 mm): PTH pad 1 [Net-(C14-Pad1)] of TP10
+    @(184.0000 mm, 123.0000 mm): Pad 1 [Net-(C14-Pad1)] of C14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(198.9950 mm, 116.0000 mm): PTH pad 8 [Net-(C14-Pad1)] of J10
+    @(184.0750 mm, 116.5000 mm): PTH pad 1 [Net-(C14-Pad1)] of TP10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(226.5750 mm, 105.5000 mm): Pad 1 [Net-(C15-Pad1)] of C15 on F.Cu
+    @(230.5750 mm, 105.5000 mm): PTH pad 1 [Net-(C15-Pad1)] of TP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(226.5750 mm, 105.5000 mm): Pad 1 [Net-(C15-Pad1)] of C15 on F.Cu
+    @(215.6150 mm, 116.0000 mm): PTH pad 2 [Net-(C15-Pad1)] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(230.5750 mm, 105.5000 mm): PTH pad 1 [Net-(C15-Pad1)] of TP9
+    @(230.0750 mm, 102.0000 mm): Pad 2 [Net-(C15-Pad1)] of R9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(204.1500 mm, 105.5000 mm): Pad 1 [Net-(C16-Pad2)] of C17 on F.Cu
+    @(208.0750 mm, 101.0000 mm): PTH pad 2 [Net-(C16-Pad2)] of C16
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(60.9600 mm, 96.5200 mm): Track [-15V] on F.Cu, length 10.1600 mm
+    @(202.0750 mm, 105.5000 mm): Pad 2 [-15V] of C17 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(202.0750 mm, 105.5000 mm): Pad 2 [-15V] of C17 on F.Cu
+    @(203.0750 mm, 110.0000 mm): PTH pad 1 [-15V] of TP11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(204.5350 mm, 116.0000 mm): PTH pad 6 [-15V] of J10
+    @(203.0750 mm, 110.0000 mm): PTH pad 1 [-15V] of TP11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(45.1550 mm, 111.3275 mm): Track [+15V] on F.Cu, length 8.4250 mm
+    @(191.5750 mm, 97.5000 mm): PTH pad 1 [+15V] of TP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(197.0750 mm, 97.5000 mm): Pad 2 [+15V] of C18 on F.Cu
+    @(191.5750 mm, 97.5000 mm): PTH pad 1 [+15V] of TP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(201.7650 mm, 116.0000 mm): PTH pad 7 [+15V] of J10
+    @(197.0750 mm, 97.5000 mm): Pad 2 [+15V] of C18 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.0000 mm, 97.5000 mm): Pad 1 [Net-(C18-Pad1)] of C18 on F.Cu
+    @(198.5750 mm, 93.0000 mm): PTH pad 2 [Net-(C18-Pad1)] of C19
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.0750 mm, 33.0000 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of TP15
+    @(202.5750 mm, 38.8400 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of J11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(210.0750 mm, 33.0000 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of TP15
+    @(219.5750 mm, 36.5000 mm): Pad 1 [/vacuum_gauge_interface/+24V] of C20 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(219.5750 mm, 36.5000 mm): Pad 1 [/vacuum_gauge_interface/+24V] of C20 on F.Cu
+    @(227.0750 mm, 34.5000 mm): PTH pad 1 [/vacuum_gauge_interface/+24V] of C21
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(219.5750 mm, 43.5000 mm): Pad 1 [/vacuum_gauge_interface/AI_PRESSURE_FILT] of R10 on F.Cu
+    @(227.0750 mm, 43.5000 mm): Pad 1 [/vacuum_gauge_interface/AI_PRESSURE_FILT] of C22 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.5000 mm, 27.0000 mm): PTH pad 1 [+24V] of C1
+    @(43.6450 mm, 25.5000 mm): Pad 2 [+24V] of C2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.3800 mm, 61.2025 mm): PTH pad 1 [+24V] of D1
+    @(53.5000 mm, 27.0000 mm): PTH pad 1 [+24V] of C1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.3800 mm, 81.2025 mm): PTH pad 1 [+24V] of D3
+    @(106.3800 mm, 61.2025 mm): PTH pad 1 [+24V] of D1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.3800 mm, 101.7025 mm): PTH pad 1 [+24V] of D4
+    @(106.3800 mm, 81.2025 mm): PTH pad 1 [+24V] of D3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(43.0000 mm, 52.3275 mm): Pad 2 [+12V] of C3 on F.Cu
+    @(53.5000 mm, 52.3275 mm): PTH pad 1 [+12V] of C4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(53.5000 mm, 52.3275 mm): PTH pad 1 [+12V] of C4
+    @(104.8800 mm, 30.0425 mm): PTH pad 1 [+12V] of D2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.5750 mm, 135.9600 mm): PTH pad 1 [/daq_interface/DO_PRECURSOR] of TP3
+    @(123.0750 mm, 135.9600 mm): Pad 2 [/daq_interface/DO_PRECURSOR] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.5750 mm, 138.4600 mm): PTH pad 2 [/daq_interface/DO_PRECURSOR] of J9
+    @(127.5750 mm, 135.9600 mm): PTH pad 1 [/daq_interface/DO_PRECURSOR] of TP3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.5750 mm, 133.9600 mm): PTH pad 1 [/daq_interface/DO_FORELINE] of TP1
+    @(133.5750 mm, 135.9200 mm): PTH pad 1 [/daq_interface/DO_FORELINE] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0750 mm, 134.4600 mm): Pad 2 [/daq_interface/DO_FORELINE] of R2 on F.Cu
+    @(138.5750 mm, 133.9600 mm): PTH pad 1 [/daq_interface/DO_FORELINE] of TP1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.5750 mm, 146.0800 mm): PTH pad 5 [/daq_interface/AO_MFC_SETPOINT] of J9
+    @(145.0750 mm, 147.4600 mm): PTH pad 1 [/daq_interface/AO_MFC_SETPOINT] of TP6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.0750 mm, 147.4600 mm): PTH pad 1 [/daq_interface/AO_MFC_SETPOINT] of TP6
+    @(151.0750 mm, 147.9600 mm): Pad 2 [/daq_interface/AO_MFC_SETPOINT] of R5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.5750 mm, 151.9600 mm): Pad 2 [/daq_interface/AI_PRESSURE] of R6 on F.Cu
+    @(128.0750 mm, 151.4600 mm): PTH pad 1 [/daq_interface/AI_PRESSURE] of TP7
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.0750 mm, 151.4600 mm): PTH pad 1 [/daq_interface/AI_PRESSURE] of TP7
+    @(133.5750 mm, 148.6200 mm): PTH pad 6 [/daq_interface/AI_PRESSURE] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.0750 mm, 140.4600 mm): PTH pad 1 [/daq_interface/DO_N2] of TP4
+    @(133.5750 mm, 141.0000 mm): PTH pad 3 [/daq_interface/DO_N2] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.5750 mm, 140.4600 mm): Pad 2 [/daq_interface/DO_N2] of R4 on F.Cu
+    @(144.0750 mm, 140.4600 mm): PTH pad 1 [/daq_interface/DO_N2] of TP4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.5750 mm, 151.1600 mm): PTH pad 7 [/daq_interface/AI_MFC_FLOW] of J9
+    @(139.0750 mm, 152.4600 mm): PTH pad 1 [/daq_interface/AI_MFC_FLOW] of TP8
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.0750 mm, 152.4600 mm): PTH pad 1 [/daq_interface/AI_MFC_FLOW] of TP8
+    @(144.5750 mm, 152.9600 mm): Pad 2 [/daq_interface/AI_MFC_FLOW] of R7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(202.5750 mm, 43.9200 mm): PTH pad 3 [/vacuum_gauge_interface/AI_PRESSURE] of J11
+    @(211.0750 mm, 47.5000 mm): PTH pad 1 [/vacuum_gauge_interface/AI_PRESSURE] of TP17
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(211.0750 mm, 47.5000 mm): PTH pad 1 [/vacuum_gauge_interface/AI_PRESSURE] of TP17
+    @(221.5750 mm, 43.5000 mm): Pad 2 [/vacuum_gauge_interface/AI_PRESSURE] of R10 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
